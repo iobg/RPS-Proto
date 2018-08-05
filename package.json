@@ -1,0 +1,22 @@
+{
+  "name": "rps-proto",
+  "version": "1.0.0",
+  "description": "what am I doing with my life tbh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iobg/RPS-Proto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iobg/RPS-Proto/issues"
+  },
+  "homepage": "https://github.com/iobg/RPS-Proto#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
