@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/iobg/RPS-Proto#readme",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.0"
   }
 }

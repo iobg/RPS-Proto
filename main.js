@@ -1,6 +1,7 @@
 let buttons = $("button");
 let randomFiller = ["rock", "paper", "scissors"]
 let results = $("#results")
+let theirPlay = $("#theyPlayed")
 let options = {
 rock: {
 	priority: "NA",
@@ -28,13 +29,17 @@ buttons.click(event=>{
 
 
 function playCheck(p1, p2){
+	theirPlay.html(`they played ${p2}`)
 	if (options[p1].beats.includes(p2)){
+		results.css("color", "green")
 		results.html("you win lad")
 	}
 	else if (p1 == p2){
+		results.css("color", "black")
 		results.html("draw :(")
 	}
 	else {
+		results.css("color", "red")
 		results.html("you lose son")
 	}
 }
